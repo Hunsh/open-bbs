@@ -7,6 +7,8 @@ package com.openbbs.exception;
  *
  */
 public enum ErrorCode {
+	SUCCESS(1,"success",null)
+	,FAIL(0, "fail", null);
 	;
 	
 	private long code;
