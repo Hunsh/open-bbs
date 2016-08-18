@@ -1,11 +1,10 @@
 package com.openbbs.dao.base;
 
 import java.util.List;
-import java.util.Map;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 
-import com.openbbs.dao.exception.RowMismatchException;
+import com.openbbs.exception.RowMismatchException;
 
 /**
  * @author Jdz

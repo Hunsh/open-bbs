@@ -1,14 +1,14 @@
 package com.openbbs.dao.base.impl;
 
 import java.util.List;
-import java.util.Map;
 
 import javax.annotation.Resource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
-import org.springframework.beans.factory.annotation.Autowired;
 
+import com.openbbs.dao.base.BaseDao;
+import com.openbbs.exception.RowMismatchException;
 /**
  * @author Jdz
  *
